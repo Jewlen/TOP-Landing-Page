@@ -31,10 +31,6 @@ header {
     font-weight: bold;
 }
 
-footer {
-    display: flex;
-    justify-content: center;
-}
 
 ul {
     display: flex;
@@ -55,6 +51,15 @@ ul {
     display: flex;
     flex-direction: column;
     max-width: 400px;
+    
+}
+
+.content h1 {
+   color: #F9FAF8; 
+}
+
+.content p {
+    color: #E5E7EB;
 }
 
 img {
@@ -97,4 +102,9 @@ img {
     display: flex;
     align-items: center;
     flex: 1;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
 }
