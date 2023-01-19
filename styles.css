@@ -47,6 +47,7 @@ ul {
 .container {
     display: flex;
     justify-content: space-between;
+    background-color: #1F2937;
 }
 
 .content {
@@ -60,9 +61,23 @@ img {
     height: 250px;
 }
 
-.quote {
+.display {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
+
+.quote {
+    display: flex;
+    justify-content: center;
+    background-color: #E5E7EB;
+}
+
+.action {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    align-items: center;
+}
+
