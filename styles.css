@@ -45,22 +45,32 @@ ul {
     justify-content: space-between;
     background-color: #1F2937;
     flex: 1;
+    gap:300px;
 }
 
 .content {
     display: flex;
     flex-direction: column;
-    max-width: 400px;
-    
+    flex: 1;
 }
-
-.content h1 {
-   color: #F9FAF8; 
-}
-
-.content p {
+    .content h1 {
+    color: #F9FAF8; 
+    margin: 0px;
+    }
+    .content p {
     color: #E5E7EB;
-}
+    margin: 0px;
+    }
+    .content button {
+        background-color: #3882F6;
+        color: #F9FAF8;
+        padding: 4px;
+        border-radius: 6px;
+        font-size: 20px;
+        border: 0px;
+        max-width: 120px;
+        margin: 16px 0px 16px 0px;
+    }
 
 img {
     width: auto;
