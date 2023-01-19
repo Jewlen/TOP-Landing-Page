@@ -70,6 +70,20 @@ img {
     flex: 1;
 }
 
+.display-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+}
+
+.display-images div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .quote {
     display: flex;
     justify-content: center;
