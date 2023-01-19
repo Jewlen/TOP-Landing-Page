@@ -110,9 +110,25 @@ img {
     background-color: #3882F6;
     color: #F9FAF8;
     display: flex;
+    justify-content: center;
     align-items: center;
+    gap: 100px;
     flex: 1;
+    
 }
+    .action button {
+        background-color: #3882F6;
+        color: #F9FAF8;
+        padding: 4px;
+        border-radius: 6px;
+        font-size: 20px;
+        border-width: 2px;
+        border-color: #F9FAF8;
+        border-style: solid;
+        max-width: 120px;
+        margin: 16px 0px 16px 0px;
+    }
+
 
 footer {
     display: flex;
