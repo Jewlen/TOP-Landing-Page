@@ -171,4 +171,7 @@ img {
 footer {
     display: flex;
     justify-content: center;
+    padding: 42px 0px 42px 0px;  
+    color:#F9FAF8;
+    font-size: 18px;
 }
