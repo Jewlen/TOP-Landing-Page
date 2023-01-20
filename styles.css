@@ -11,14 +11,14 @@ body {
     margin: 0px;
     padding-left: 200px;
     padding-right: 200px;
+    background-color: rgb(19, 18, 18);
 }
 
 header,
 footer {
     background-color: #1F2937;
-    color: #F9FAF8;
     align-items: center;
-    padding: 16px;  
+    padding: 16px 200px 16px 200px;  
 }
 
 header {
@@ -29,6 +29,7 @@ header {
 .title {
     font-size: 24px;
     font-weight: bold;
+    color: #F9FAF8;
 }
 
 
@@ -37,15 +38,19 @@ ul {
     list-style: none;
     margin: 0px;
     padding: 0px;
-    gap: 16px;
+    gap: 18px;
+    color: #E5E7EB;
+    font-size: 18px;
 }
 
 .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #1F2937;
     flex: 1;
     gap:300px;
+    padding: 50px 200px 50px 200px
 }
 
 .content {
@@ -83,6 +88,7 @@ img {
     justify-content: center;
     align-items: center;
     flex: 1;
+    background-color: #F9FAF8;
 }
 
 .display-images {
