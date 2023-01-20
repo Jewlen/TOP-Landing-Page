@@ -28,7 +28,7 @@ header {
 
 .title {
     font-size: 24px;
-    font-weight: bold;
+    font-weight: bolder;
     color: #F9FAF8;
 }
 
@@ -50,7 +50,7 @@ ul {
     background-color: #1F2937;
     flex: 1;
     gap:300px;
-    padding: 50px 200px 50px 200px
+    padding: 100px 200px 100px 200px
 }
 
 .content {
@@ -58,24 +58,27 @@ ul {
     flex-direction: column;
     flex: 1;
 }
-    .content h1 {
-    color: #F9FAF8; 
-    margin: 0px;
-    }
-    .content p {
-    color: #E5E7EB;
-    margin: 0px;
-    }
-    .content button {
-        background-color: #3882F6;
-        color: #F9FAF8;
-        padding: 4px;
-        border-radius: 6px;
-        font-size: 20px;
-        border: 0px;
-        max-width: 120px;
-        margin: 16px 0px 16px 0px;
-    }
+        .content h1 {
+        color: #F9FAF8; 
+        margin: 0px;
+        font-size: 48px;
+        }
+        .content p {
+        color: #E5E7EB;
+        margin: 0px;
+        font-size: 18px;
+        }
+        .content button {
+            background-color: #3882F6;
+            color: #F9FAF8;
+            padding: 8px;
+            border-radius: 6px;
+            font-size: 18px;
+            border: 0px;
+            max-width: 120px;
+            margin: 16px 0px 16px 0px;
+            font-weight: bold;
+        }
 
 img {
     width: auto;
