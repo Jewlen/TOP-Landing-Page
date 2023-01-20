@@ -54,7 +54,8 @@ ul {
     background-color: #1F2937;
     flex: 1;
     gap:300px;
-    padding: 100px 200px 100px 200px
+    padding: 100px 200px 100px 200px;
+    flex-wrap: wrap;
 }
 
 .content {
@@ -96,6 +97,7 @@ img {
     align-items: center;
     flex: 1;
     background-color: #F9FAF8;
+    
 }
 
         .display h1 {
@@ -109,7 +111,8 @@ img {
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 16px;
+            gap: 28px;
+            flex-wrap: wrap;
         }
 
         .display-images div {
@@ -117,6 +120,13 @@ img {
             flex-direction: column;
             justify-content: center;
             align-items: center;
+        }
+
+        .display-images img {
+            height: 250px;
+            width: 250px;
+            border-radius: 24px;
+            border:3px solid #3882F6;
         }
 
 .quote {
